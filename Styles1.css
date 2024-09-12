@@ -13,7 +13,7 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .profile{
-    width:90%;
+    width:80%;
     height:8rem;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   align-content: center;
@@ -78,7 +78,7 @@ img{
     color: black;
 }
 .about {
-    width: 90%;
+    width: 80%;
     height:8rem;
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@ img{
      
 }
 .education {
-    width: 90%;
+    width: 80%;
     height:4rem;
     display: flex;
     flex-direction: column;
@@ -105,7 +105,7 @@ img{
     justify-content:flex-end;
 }
 .skill {
-    width: 90%;
+    width: 80%;
     height:6rem;
     display: flex;
     flex-direction: column;
@@ -120,7 +120,7 @@ img{
     border-style:solid; */
 }
 .project {
-    width: 90%;
+    width: 80%;
     height:6rem;
     display: flex;
     flex-direction: column;
@@ -129,7 +129,7 @@ img{
     justify-content:flex-end;
 }
 .certificate {
-    width: 90%;
+    width: 80%;
     height:8rem;
     display: flex;
     flex-direction: column;
@@ -138,7 +138,7 @@ img{
     justify-content:flex-end;
 }
 .Achievements {
-    width: 90%;
+    width: 80%;
     height:9rem;
     padding-bottom:1rem;
     display: flex;
@@ -155,4 +155,91 @@ img{
     right: 20px;
     gap: 20px;
 }
+.list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-content: space-between;
+    align-items: stretch;
+}
+.list1{
+    width:20%;
+    padding-left:40px;
+    /* font-size:large; */
+}
+.fa-arrow-up-right-from-square{
+    background: rgba(7, 55, 246, 0.2);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 40px;
+    border: 1rem solid rgba( 255, 255, 255, 0.18 );
+}
+.fa-code{
+    background: rgb(246, 140, 1,0.2);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 40px;
+    border: 1rem solid rgba( 255, 255, 255, 0.18 );
+}
+.fa-code:hover{
+    background: rgb(232, 137, 13);
+    color: #ffff;
+    /* visibility: visible;
+      opacity: 1; */
+}
+.fa-code-branch {
+    background: rgb(207, 194, 190,0.2);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 50px;
+    border: 1rem solid rgba( 255, 255, 255, 0.18 );
+}
+.fa-code-branch:hover{
+    background: black;
+    color:#ffff;
+    /* visibility: visible;
+      opacity: 1; */
+}
+.fa-laptop-code:hover{
+    background: rgb(26, 108, 8);
+    color: #ffff;
+    /* visibility: visible;
+      opacity: 1; */
+}
+.fa-laptop-code{
+    background: rgba(38, 178, 6, 0.2);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 40px;
+    border: 1rem solid rgba( 255, 255, 255, 0.18 );
+}
+.fa-arrow-up-right-from-square:hover{
+    background: rgb(15, 49, 188);
+    color:white;
+    /* visibility: visible;
+      opacity: 1; */
+}
+/* .GFG .linked .leetcode .git{
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    
+    /* Positioning the message */
+    /* position: absolute;
+    bottom: 100%; /* Show above the icon */
+    /* left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap; */
 
+    /* Fade-in effect */
+    /* opacity: 0;
+    transition: opacity 0.3s ease;
+} */ 
